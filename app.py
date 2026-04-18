@@ -68,7 +68,7 @@ for state in required_states:
 # نموذج Gemini واحد فقط
 # -------------------------------------------------
 if GEMINI_API_KEY and "gemini_model" not in st.session_state:
-    st.session_state["gemini_model"] = genai.GenerativeModel("gemini-pro")
+    st.session_state["gemini_model"] = genai.GenerativeModel("gemini-2.0-flash")
 
 
 # =================================================
